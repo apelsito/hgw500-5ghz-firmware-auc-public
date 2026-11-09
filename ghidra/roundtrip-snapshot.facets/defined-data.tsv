@@ -1,0 +1,373 @@
+address	length	datatype
+auc_segment_06:e50001b8	4	/undefined *
+auc_segment_06:e50001bc	4	/undefined *
+auc_segment_06:e50001c4	4	/undefined *
+auc_segment_06:e50001c8	4	/undefined *
+auc_segment_06:e50001cc	4	/undefined *
+auc_segment_06:e50001d0	4	/undefined *
+auc_segment_08:e50074c0	4	/undefined *
+auc_segment_08:e50074c4	4	/undefined *
+auc_segment_08:e500755c	4	/undefined *
+auc_segment_08:e5007560	4	/undefined *
+auc_segment_08:e5007564	4	/undefined *
+auc_segment_08:e5007568	4	/undefined *
+auc_segment_08:e5007b0c	4	/undefined *
+auc_segment_08:e5007b10	4	/undefined *
+auc_segment_08:e5007e20	4	/undefined *
+auc_segment_08:e5007e24	4	/undefined *
+auc_segment_08:e5007ed4	4	/undefined *
+auc_segment_08:e5007ed8	4	/undefined *
+auc_segment_08:e5007edc	4	/undefined *
+auc_segment_08:e5007ee0	4	/undefined *
+auxregs:000a	4	/undefined4
+auxregs:000c	4	/undefined4
+auxregs:0200	4	/undefined4
+ram:00472004	4	/undefined4
+ram:00472008	4	/undefined *
+ram:0047200c	4	/undefined *
+ram:00472010	4	/undefined *
+ram:00472014	4	/undefined *
+ram:00472018	4	/undefined *
+ram:0047201c	4	/undefined *
+ram:00472020	4	/undefined *
+ram:00472024	4	/undefined *
+ram:00472028	4	/undefined *
+ram:0047202c	4	/undefined *
+ram:00472030	4	/undefined *
+ram:00472034	4	/undefined *
+ram:00472038	4	/undefined *
+ram:0047203c	4	/undefined *
+ram:00472040	4	/undefined *
+ram:00472044	4	/undefined *
+ram:00472048	4	/undefined *
+ram:0047204c	4	/undefined *
+ram:00472050	4	/undefined *
+ram:00472054	4	/undefined *
+ram:00472058	4	/undefined *
+ram:0047205c	4	/undefined *
+ram:00472060	4	/undefined *
+ram:00472064	4	/undefined *
+ram:00472068	4	/undefined *
+ram:0047206c	4	/undefined *
+ram:00472070	4	/undefined *
+ram:00472074	4	/undefined *
+ram:00472078	4	/undefined *
+ram:0047207c	4	/undefined *
+ram:00472080	4	/undefined *
+ram:00472084	4	/undefined *
+ram:00472088	4	/undefined *
+ram:0047208c	4	/undefined *
+ram:00472090	4	/undefined *
+ram:00472094	4	/undefined *
+ram:00472098	4	/undefined4
+ram:0047209c	4	/undefined4
+ram:0047216c	14	/string
+ram:0047217a	14	/string
+ram:00472188	14	/string
+ram:00472196	15	/string
+ram:004721a8	9	/string
+ram:004721b1	9	/string
+ram:004721ba	9	/string
+ram:004721c3	9	/string
+ram:004721cc	9	/string
+ram:004721d5	9	/string
+ram:004721de	9	/string
+ram:004721e7	9	/string
+ram:004721f0	9	/string
+ram:004721f9	9	/string
+ram:00472202	10	/string
+ram:0047220c	10	/string
+ram:00472216	10	/string
+ram:00472220	10	/string
+ram:0047222a	10	/string
+ram:00472234	10	/string
+ram:0047223e	10	/string
+ram:00472248	10	/string
+ram:00472252	10	/string
+ram:0047225c	10	/string
+ram:00472266	10	/string
+ram:00472270	10	/string
+ram:0047227a	10	/string
+ram:00472284	10	/string
+ram:0047228e	10	/string
+ram:00472298	10	/string
+ram:004722a2	9	/string
+ram:004722ab	9	/string
+ram:004722b4	9	/string
+ram:004722bd	13	/string
+ram:004722ca	13	/string
+ram:004722d7	12	/string
+ram:004722e3	15	/string
+ram:004722f2	18	/string
+ram:00472304	18	/string
+ram:00472316	14	/string
+ram:00472324	38	/string
+ram:0047234a	38	/string
+ram:00472370	12	/string
+ram:0047237c	9	/string
+ram:00472394	55	/string
+ram:004723cc	16	/string
+ram:004723dc	4	/undefined4
+ram:0047248e	40	/string
+ram:004724b6	19	/string
+ram:004724c9	10	/string
+ram:004724d3	36	/string
+ram:004724f7	19	/string
+ram:0047250a	43	/string
+ram:00472535	25	/string
+ram:0047254e	9	/string
+ram:00472557	29	/string
+ram:00472578	18	/string
+ram:0047258a	20	/string
+ram:0047259e	31	/string
+ram:004725bd	27	/string
+ram:004725d8	19	/string
+ram:004725eb	14	/string
+ram:00472608	43	/string
+ram:00472633	21	/string
+ram:00472648	16	/string
+ram:00472658	17	/string
+ram:00472669	21	/string
+ram:0047267e	30	/string
+ram:004726bd	22	/string
+ram:004726d3	33	/string
+ram:004726f4	30	/string
+ram:00472712	17	/string
+ram:00472723	23	/string
+ram:0047273a	29	/string
+ram:00472757	24	/string
+ram:0047276f	38	/string
+ram:0047279a	52	/string
+ram:004727d4	58	/string
+ram:0047280e	47	/string
+ram:0047283d	36	/string
+ram:00472861	49	/string
+ram:00472892	58	/string
+ram:004728cc	37	/string
+ram:004728f1	49	/string
+ram:00472922	67	/string
+ram:00472965	21	/string
+ram:0047297a	32	/string
+ram:0047299a	78	/string
+ram:004729e8	4	/undefined4
+ram:004729ec	2	/undefined2
+ram:004729ee	13	/string
+ram:004729fb	18	/string
+ram:00472a0d	17	/string
+ram:00472a1e	15	/string
+ram:00472a30	4	/undefined4
+ram:00472a34	2	/undefined2
+ram:00472a38	26	/string
+ram:00472a52	49	/string
+ram:00472a83	71	/string
+ram:0047bad0	4	/undefined4
+ram:0047bad4	4	/undefined4
+ram:0047bad8	4	/undefined4
+ram:0062dcc8	4	/undefined4
+ram:0062dd38	4	/undefined4
+ram:8004a000	4	/undefined4
+ram:8004a008	4	/undefined4
+ram:80078030	4	/undefined4
+ram:80078034	4	/undefined4
+ram:80078038	4	/undefined4
+ram:8007803c	4	/undefined4
+ram:80078098	4	/undefined4
+ram:80078108	4	/undefined4
+ram:80079b80	4	/undefined4
+ram:80079b84	4	/undefined4
+ram:e500022c	4	/pointer
+ram:e5000230	4	/undefined4
+ram:e5000234	4	/pointer
+ram:e50004b4	4	/pointer
+ram:e50004b8	4	/pointer
+ram:e50004bc	4	/pointer
+ram:e50004c0	4	/pointer
+ram:e50004c4	4	/pointer
+ram:e50004c8	4	/pointer
+ram:e50004cc	4	/undefined4
+ram:e50004d0	4	/undefined4
+ram:e50004d4	4	/undefined4
+ram:e50004d8	4	/pointer
+ram:e5000778	4	/undefined4
+ram:e5000a9c	4	/undefined *
+ram:e5000aa0	4	/undefined *
+ram:e5000e88	4	/undefined *
+ram:e5000e8c	4	/undefined *
+ram:e5000e94	4	/undefined *
+ram:e5000e98	4	/undefined *
+ram:e5000e9c	4	/undefined *
+ram:e5000ea0	4	/undefined *
+ram:e5000ea4	4	/undefined *
+ram:e5000eac	4	/undefined *
+ram:e5000eb0	4	/undefined *
+ram:e5000eb4	4	/undefined *
+ram:e5000ebc	4	/undefined *
+ram:e5000ec0	4	/undefined *
+ram:e5000ed0	4	/undefined *
+ram:e5000ed4	4	/undefined *
+ram:e50011fc	4	/pointer
+ram:e5001550	4	/pointer
+ram:e5001554	4	/undefined *
+ram:e5001558	4	/undefined *
+ram:e500155c	4	/undefined *
+ram:e5001560	4	/pointer
+ram:e5001564	4	/undefined4
+ram:e5001568	4	/undefined4
+ram:e5001638	4	/pointer
+ram:e500163c	4	/undefined4
+ram:e5001650	4	/undefined4
+ram:e500179e	1	/byte
+ram:e500179f	1	/byte
+ram:e50017a0	1	/byte
+ram:e50017a1	1	/byte
+ram:e50017a2	1	/byte
+ram:e5001924	4	/undefined *
+ram:e5001928	4	/undefined *
+ram:e500192c	4	/undefined4
+ram:e5001ccc	4	/undefined *
+ram:e5001cd0	4	/undefined *
+ram:e5001cd4	4	/undefined *
+ram:e50020f0	4	/undefined *
+ram:e50020f4	4	/undefined *
+ram:e5002484	4	/undefined *
+ram:e5002488	4	/undefined *
+ram:e5002890	4	/undefined *
+ram:e5002894	4	/undefined *
+ram:e5002d68	4	/undefined *
+ram:e5002d6c	4	/undefined *
+ram:e5003b9c	4	/undefined *
+ram:e5003ba0	4	/undefined *
+ram:e5003bb0	4	/undefined *
+ram:e5003bb4	4	/undefined *
+ram:e5003bb8	4	/undefined *
+ram:e5003bc0	4	/undefined *
+ram:e5003bc4	4	/undefined *
+ram:e5004168	4	/undefined *
+ram:e500416c	4	/undefined *
+ram:e5004848	4	/undefined *
+ram:e500484c	4	/undefined *
+ram:e5004850	4	/undefined *
+ram:e5004aac	4	/undefined *
+ram:e5004ab0	4	/undefined *
+ram:e5004ee4	4	/undefined *
+ram:e5004ee8	4	/undefined *
+ram:e5004eec	4	/undefined *
+ram:e5004ef0	4	/undefined *
+ram:e5004f10	4	/undefined *
+ram:e5004f14	4	/undefined *
+ram:e5004f2c	4	/undefined *
+ram:e5004f30	4	/undefined *
+ram:e5004f34	4	/undefined *
+ram:e5004f3c	4	/undefined *
+ram:e5004f40	4	/undefined *
+ram:e5004f44	4	/undefined *
+ram:e5005350	4	/undefined *
+ram:e5005354	4	/undefined *
+ram:e5005358	4	/undefined *
+ram:e500535c	4	/undefined *
+ram:e5005360	4	/undefined *
+ram:e5005364	4	/undefined *
+ram:e500536c	4	/undefined *
+ram:e5005370	4	/undefined *
+ram:e50057c4	4	/undefined *
+ram:e50057c8	4	/undefined *
+ram:e50057cc	4	/undefined *
+ram:e50059e6	1	/byte
+ram:e50059e7	1	/byte
+ram:e50059e8	1	/byte
+ram:e50059e9	1	/byte
+ram:e5005a1c	4	/undefined4
+ram:e5005ab0	4	/pointer
+ram:e5005fb2	1	/byte
+ram:e5005fb3	1	/byte
+ram:e5005fb4	1	/byte
+ram:e5005fb5	1	/byte
+ram:e5005fb6	1	/byte
+ram:e5005fb7	1	/byte
+ram:e5005fb8	1	/byte
+ram:e5005fb9	1	/byte
+ram:e5007454	4	/undefined4
+ram:e5007458	4	/undefined4
+ram:e5007478	4	/undefined4
+ram:e500747c	4	/pointer
+ram:e5007480	4	/pointer
+ram:e5007484	4	/pointer
+ram:e50074b0	4	/undefined4
+ram:e50076d8	4	/pointer
+ram:e50076dc	4	/undefined4
+ram:e50076e0	4	/pointer
+ram:e50076e4	4	/undefined4
+ram:e50076e8	4	/pointer
+ram:e50076ec	4	/pointer
+ram:e50076f0	4	/pointer
+ram:e50076f4	4	/pointer
+ram:e50076f8	4	/pointer
+ram:e50076fc	4	/pointer
+ram:e5007700	4	/pointer
+ram:e5007704	4	/pointer
+ram:e5007708	4	/pointer
+ram:e500770c	4	/pointer
+ram:e5007710	4	/pointer
+ram:e5007714	4	/pointer
+ram:e5007718	4	/pointer
+ram:e500771c	4	/pointer
+ram:e5007720	4	/undefined4
+ram:e5007724	4	/undefined4
+ram:e5007728	4	/undefined4
+ram:e500772c	4	/undefined4
+ram:e5007730	4	/undefined4
+ram:e5007734	4	/undefined4
+ram:e5007738	4	/undefined4
+ram:e500773c	4	/undefined4
+ram:e50077a0	4	/undefined4
+ram:e50077a4	4	/undefined4
+ram:e50077a8	4	/undefined4
+ram:e50077ac	4	/undefined4
+ram:e50077b0	4	/pointer
+ram:e50077b4	4	/undefined4
+ram:e50077b8	4	/pointer
+ram:e50077bc	4	/pointer
+ram:e50077c0	4	/undefined4
+ram:e50077d4	4	/undefined4
+ram:e50077e4	4	/undefined4
+ram:e50077f4	4	/undefined4
+ram:e500780c	4	/undefined4
+ram:e5007810	4	/undefined4
+ram:e50078b0	4	/pointer
+ram:e50078b4	4	/pointer
+ram:e50078b8	4	/pointer
+ram:e50078bc	4	/pointer
+ram:e50078c0	4	/pointer
+ram:e50078c4	4	/pointer
+ram:e50078c8	4	/pointer
+ram:e50078cc	4	/pointer
+ram:e50078e8	4	/pointer
+ram:e510110c	4	/undefined4
+ram:e5101114	4	/undefined4
+ram:e5101130	2	/undefined2
+ram:e5101134	4	/undefined4
+ram:e5101138	4	/undefined4
+ram:e510113c	2	/undefined2
+ram:e5101140	4	/undefined4
+ram:e5101144	4	/undefined4
+ram:e51011e4	4	/undefined4
+ram:e51011e8	4	/undefined *
+ram:e51011ec	4	/undefined *
+ram:e5101b48	4	/undefined4
+ram:e5101b4c	4	/undefined4
+ram:e510327c	4	/undefined4
+ram:e51033e8	4	/undefined4
+ram:e5103430	4	/undefined4
+ram:e5103434	4	/undefined4
+ram:e5103520	4	/undefined4
+ram:e5103524	4	/undefined4
+ram:e5103548	4	/undefined4
+ram:e5103550	4	/undefined4
+ram:e5103558	4	/undefined4
+ram:e510355c	4	/undefined4
+ram:e5103564	4	/undefined4
+ram:e5103568	4	/undefined4
+ram:e51035f8	4	/undefined4
+ram:e5103600	4	/undefined4
+ram:e5103608	4	/undefined4
+ram:e5103be8	4	/undefined4

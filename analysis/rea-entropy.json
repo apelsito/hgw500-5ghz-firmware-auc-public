@@ -1,0 +1,124 @@
+{
+  "command": [
+    "/usr/local/bin/rea",
+    "inspect-byte-entropy",
+    "/workspace/build/evidence/hgw500-quantenna-firmwares-20261103/run1/auc/auc_driver.nomu.0.bin",
+    "--format",
+    "json"
+  ],
+  "returncode": 0,
+  "result": {
+    "evidence_id": "ev_daf2552725163b78086995c132e0ca75afa9f9f4019842be47985729d51709cd",
+    "subject": {
+      "name": "auc_driver.nomu.0.bin",
+      "digest": {
+        "sha256": "c10018f4fe384d753a800bbbcd5ef3c85c568d0852c221009063282d30fd85f6"
+      },
+      "local_path": "/workspace/build/evidence/hgw500-quantenna-firmwares-20261103/run1/auc/auc_driver.nomu.0.bin",
+      "format": "file",
+      "architecture": null
+    },
+    "provider": {
+      "id": "byte-entropy",
+      "name": "REA byte entropy",
+      "version": "1"
+    },
+    "analysis_profile": null,
+    "predicate_type": "rea.analysis",
+    "operation": "inspect_byte_entropy",
+    "parameters": {
+      "path": "/workspace/build/evidence/hgw500-quantenna-firmwares-20261103/run1/auc/auc_driver.nomu.0.bin",
+      "block_size": 4096,
+      "offset": 0
+    },
+    "raw_result": null,
+    "normalized_result": {
+      "artifact": {
+        "path": "/workspace/build/evidence/hgw500-quantenna-firmwares-20261103/run1/auc/auc_driver.nomu.0.bin",
+        "bytes": 33342,
+        "sha256": "c10018f4fe384d753a800bbbcd5ef3c85c568d0852c221009063282d30fd85f6"
+      },
+      "block_size": 4096,
+      "window": {
+        "offset": 0,
+        "length": 33342
+      },
+      "file_entropy": 6.9604,
+      "thresholds": {
+        "high": 7.2,
+        "low": 1
+      },
+      "blocks": [
+        {
+          "offset": 0,
+          "length": 4096,
+          "entropy": 4.9965
+        },
+        {
+          "offset": 4096,
+          "length": 4096,
+          "entropy": 6.9028
+        },
+        {
+          "offset": 8192,
+          "length": 4096,
+          "entropy": 6.9466
+        },
+        {
+          "offset": 12288,
+          "length": 4096,
+          "entropy": 6.9965
+        },
+        {
+          "offset": 16384,
+          "length": 4096,
+          "entropy": 6.8959
+        },
+        {
+          "offset": 20480,
+          "length": 4096,
+          "entropy": 6.977
+        },
+        {
+          "offset": 24576,
+          "length": 4096,
+          "entropy": 6.9572
+        },
+        {
+          "offset": 28672,
+          "length": 4096,
+          "entropy": 6.9146
+        },
+        {
+          "offset": 32768,
+          "length": 574,
+          "entropy": 6.7765
+        }
+      ],
+      "runs": [],
+      "limitations": [
+        "Entropy does not prove encryption; compressed and encrypted bytes cannot be distinguished by this measure.",
+        "Entropy is rounded to four decimal places; thresholds classify those reported values. Small blocks can underestimate entropy.",
+        "The file-wide hash and entropy cover the entire file; blocks and runs cover only the selected window. Empty input has entropy 0 by convention."
+      ]
+    },
+    "confidence": "observed",
+    "authority": "shipped-artifact",
+    "environment": null,
+    "limitations": [
+      "Entropy does not prove encryption; compressed and encrypted bytes cannot be distinguished by this measure.",
+      "Entropy is rounded to four decimal places; thresholds classify those reported values. Small blocks can underestimate entropy.",
+      "The file-wide hash and entropy cover the entire file; blocks and runs cover only the selected window. Empty input has entropy 0 by convention."
+    ],
+    "relationship_coverage": null,
+    "locations": [
+      {
+        "kind": "artifact-path",
+        "path": "/workspace/build/evidence/hgw500-quantenna-firmwares-20261103/run1/auc/auc_driver.nomu.0.bin"
+      }
+    ],
+    "evidence_links": []
+  },
+  "stdout_file": "rea-entropy.stdout",
+  "stderr_file": "rea-entropy.stderr"
+}

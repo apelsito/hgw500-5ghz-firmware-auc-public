@@ -1,0 +1,27 @@
+{
+  "schema": "openmitrastar.ghidra-quantenna-export-verification/v1",
+  "role": "auc",
+  "original_filename": "auc_driver.nomu.0.bin",
+  "original_bytes": 33342,
+  "original_sha256": "c10018f4fe384d753a800bbbcd5ef3c85c568d0852c221009063282d30fd85f6",
+  "original_filebytes_verified": [
+    "original-file-0.bin",
+    "original-file-1.bin"
+  ],
+  "original_entire_file_preserved": true,
+  "source_ranges_verified": 7,
+  "unique_input_bytes_mapped": 33002,
+  "instructions": 1421,
+  "file_mapped_instructions_verified": 1421,
+  "unique_input_instruction_bytes": 3952,
+  "functions": 55,
+  "c_reconstructions": 55,
+  "snapshot_sha256": "d4d76547efa309f0b10cb5bf11e7e72ee4e0f1b3dfa46f31edd74cb7098387ea",
+  "all_checks_passed": true,
+  "limits": [
+    "Input byte identity, source mappings and inventories are verified.",
+    "Function extent and reconstructed C remain Ghidra's static analysis observations.",
+    "ARC ISA extensions, ABI and execution equivalence require separate validation.",
+    "GZF must be reopened with the same processor extension to verify portability."
+  ]
+}

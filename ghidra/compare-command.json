@@ -1,0 +1,8 @@
+[
+  "python3",
+  "/workspace/OpenMitraStar/HGW500/out/ghidra-quantenna-20261103/scripts/compare.py",
+  "/workspace/build/evidence/ghidra-quantenna-20261103/preservation-auc-export-final/ghidra-snapshot.json",
+  "/workspace/build/evidence/ghidra-quantenna-20261103/preservation-auc-export-final/roundtrip-snapshot.json",
+  "--output",
+  "/workspace/build/evidence/ghidra-quantenna-20261103/preservation-auc-export-final/roundtrip-verification.json"
+]

@@ -1,0 +1,13 @@
+block	space	start	length	file_offset	source_name	source_description
+auc_segment_01	ram	0x472000	2762	356	auc_driver.nomu.0.bin	auc_driver.nomu.0.bin[0x164, 0xaca]
+auc_segment_01_declared_BSS	ram	0x472aca	1826710	-1		uninit[0x1bdf96]
+auc_segment_02_declared_BSS	ram	0x80040000	236544	-1		uninit[0x39c00]
+auc_segment_04	ram	0xe5000000	24832	3822	auc_driver.nomu.0.bin	auc_driver.nomu.0.bin[0xeee, 0x6100]
+auc_segment_07	ram	0xe50073b0	1340	29134	auc_driver.nomu.0.bin	auc_driver.nomu.0.bin[0x71ce, 0x53c]
+auc_segment_03	ram	0xe5101000	704	3118	auc_driver.nomu.0.bin	auc_driver.nomu.0.bin[0xc2e, 0x2c0]
+auc_segment_03_declared_BSS	ram	0xe51012c0	9420	-1		uninit[0x24cc]
+auc_segment_05_declared_BSS	ram	0xe5103be8	1048	-1		uninit[0x418]
+AUX_REGS	auxregs	0x0	16384	-1		uninit[0x4000]
+auc_segment_00	auc_segment_00	0xffff0000	16	340	auc_driver.nomu.0.bin	auc_driver.nomu.0.bin[0x154, 0x10]
+auc_segment_06	auc_segment_06	0xe5000000	480	28654	auc_driver.nomu.0.bin	auc_driver.nomu.0.bin[0x6fee, 0x1e0]
+auc_segment_08	auc_segment_08	0xe50073b0	2868	30474	auc_driver.nomu.0.bin	auc_driver.nomu.0.bin[0x770a, 0xb34]

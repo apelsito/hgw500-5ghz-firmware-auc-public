@@ -1,0 +1,120 @@
+{
+  "class": "ELF32",
+  "byte_order": "little",
+  "e_machine": 93,
+  "machine_declared": "ARCompact",
+  "entry": "0xe5000000",
+  "program_header_count": 9,
+  "section_header_count": 0,
+  "elf_flags": "0x0",
+  "segments": [
+    {
+      "index": 0,
+      "type": 1,
+      "file_offset": 340,
+      "virtual_address": "0xffff0000",
+      "physical_address": "0x0",
+      "file_bytes": 16,
+      "memory_bytes": 16,
+      "flags": 6,
+      "alignment": 4096,
+      "sha256": "320a04d44b221cf1499f9d9cf7b383510eb996bbe0e9117ac5374f8d5b7a9502"
+    },
+    {
+      "index": 1,
+      "type": 1,
+      "file_offset": 356,
+      "virtual_address": "0x472000",
+      "physical_address": "0x0",
+      "file_bytes": 2762,
+      "memory_bytes": 1829472,
+      "flags": 6,
+      "alignment": 4096,
+      "sha256": "7f53ecdc962871ce3df81b80ac51e1e6a4acde40dd2a26d28767c4752834b4df"
+    },
+    {
+      "index": 2,
+      "type": 1,
+      "file_offset": 3118,
+      "virtual_address": "0x80040000",
+      "physical_address": "0x0",
+      "file_bytes": 0,
+      "memory_bytes": 236544,
+      "flags": 6,
+      "alignment": 4096,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "index": 3,
+      "type": 1,
+      "file_offset": 3118,
+      "virtual_address": "0xe5101000",
+      "physical_address": "0x0",
+      "file_bytes": 704,
+      "memory_bytes": 10124,
+      "flags": 6,
+      "alignment": 4096,
+      "sha256": "bd505b2f048a15e1d8185d31af79b695ac060a40efeb87b7cc33a619380518be"
+    },
+    {
+      "index": 4,
+      "type": 1,
+      "file_offset": 3822,
+      "virtual_address": "0xe5000000",
+      "physical_address": "0x0",
+      "file_bytes": 24832,
+      "memory_bytes": 24832,
+      "flags": 5,
+      "alignment": 4096,
+      "sha256": "d8a5fd5bc3a4812fa292efff78953a95bbf4d9a9a1cef451dd1beba57f522224"
+    },
+    {
+      "index": 5,
+      "type": 1,
+      "file_offset": 3822,
+      "virtual_address": "0xe5103be8",
+      "physical_address": "0x0",
+      "file_bytes": 0,
+      "memory_bytes": 1048,
+      "flags": 6,
+      "alignment": 4096,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "index": 6,
+      "type": 1,
+      "file_offset": 28654,
+      "virtual_address": "0xe5000000",
+      "physical_address": "0x63bee4",
+      "file_bytes": 480,
+      "memory_bytes": 480,
+      "flags": 5,
+      "alignment": 4096,
+      "sha256": "108d2fb6deb7e467b82e44880398e7f1311738b782957b72ba1b81315e8b3ffa"
+    },
+    {
+      "index": 7,
+      "type": 1,
+      "file_offset": 29134,
+      "virtual_address": "0xe50073b0",
+      "physical_address": "0x0",
+      "file_bytes": 1340,
+      "memory_bytes": 1340,
+      "flags": 5,
+      "alignment": 4096,
+      "sha256": "1ecee139b4965da48b331f9ea3aff034aa1205582fa53e88d3dfc20382d1402f"
+    },
+    {
+      "index": 8,
+      "type": 1,
+      "file_offset": 30474,
+      "virtual_address": "0xe50073b0",
+      "physical_address": "0x63b3b0",
+      "file_bytes": 2868,
+      "memory_bytes": 2868,
+      "flags": 5,
+      "alignment": 4096,
+      "sha256": "bd20cc8b40d8966d4699b7e50370a46e89b96a49c3da997f0cdd6d9887b8b1f8"
+    }
+  ]
+}

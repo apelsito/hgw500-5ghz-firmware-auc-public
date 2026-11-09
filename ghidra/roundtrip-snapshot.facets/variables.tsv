@@ -1,0 +1,8 @@
+function_entry	name	datatype	storage	first_use	source	comment_sha256
+ram:e5000330	local_8	/undefined4	Stack[-0x8]:4	0	DEFAULT	
+ram:e5005d6c	local_4	/undefined4	Stack[-0x4]:4	0	DEFAULT	
+ram:e5005d70	local_4	/undefined4	Stack[-0x4]:4	0	DEFAULT	
+ram:e5005d74	local_4	/undefined4	Stack[-0x4]:4	0	DEFAULT	
+ram:e5005d78	local_4	/undefined4	Stack[-0x4]:4	0	DEFAULT	
+ram:e5005d7c	local_4	/undefined4	Stack[-0x4]:4	0	DEFAULT	
+ram:e5007568	local_1c	/undefined4	Stack[-0x1c]:4	0	DEFAULT	

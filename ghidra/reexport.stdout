@@ -1,0 +1,50 @@
+INFO  Using log config file: jar:file:/opt/engineering/tools/ghidra_12.1.3_PUBLIC/Ghidra/Framework/Generic/lib/Generic.jar!/generic.log4j.xml (LoggingInitialization)  
+INFO  Using log file: /workspace/build/.config/ghidra/ghidra_12.1.3_PUBLIC/application.log (LoggingInitialization)  
+INFO  Loading user preferences: /workspace/build/.config/ghidra/ghidra_12.1.3_PUBLIC/preferences (Preferences)  
+INFO  Searching for classes... (ClassSearcher)  
+INFO  Class search complete (4755 ms) (ClassSearcher)  
+INFO  Initializing SSL Context (DefaultSSLContextInitializer)  
+INFO  Initializing Random Number Generator... (SecureRandomFactory)  
+INFO  Random Number Generator initialization complete: NativePRNGNonBlocking (SecureRandomFactory)  
+INFO  Trust manager disabled, cacerts have not been set (DefaultTrustManagerFactory)  
+INFO  Headless startup complete (8514 ms) (AnalyzeHeadless)  
+INFO  Class searcher loaded 59 extension points (20 false positives) (ClassSearcher)  
+INFO  HEADLESS Script Paths:
+    /opt/engineering/tools/ghidra_12.1.3_PUBLIC/Ghidra/Features/FunctionID/ghidra_scripts
+    /opt/engineering/tools/ghidra_12.1.3_PUBLIC/Ghidra/Processors/DATA/ghidra_scripts
+    /opt/engineering/tools/ghidra_12.1.3_PUBLIC/Ghidra/Debug/Debugger/ghidra_scripts
+    /opt/engineering/tools/ghidra_12.1.3_PUBLIC/Ghidra/Features/SystemEmulation/ghidra_scripts
+    /opt/engineering/tools/ghidra_12.1.3_PUBLIC/Ghidra/Processors/PIC/ghidra_scripts
+    /opt/engineering/tools/ghidra_12.1.3_PUBLIC/Ghidra/Features/Decompiler/ghidra_scripts
+    /opt/engineering/tools/ghidra_12.1.3_PUBLIC/Ghidra/Processors/JVM/ghidra_scripts
+    /opt/engineering/tools/ghidra_12.1.3_PUBLIC/Ghidra/Features/BSim/ghidra_scripts
+    /opt/engineering/tools/ghidra_12.1.3_PUBLIC/Ghidra/Debug/Debugger-rmi-trace/ghidra_scripts
+    /opt/engineering/tools/ghidra_12.1.3_PUBLIC/Ghidra/Features/VersionTracking/ghidra_scripts
+    /opt/engineering/tools/ghidra_12.1.3_PUBLIC/Ghidra/Features/FileFormats/ghidra_scripts
+    /opt/engineering/tools/ghidra_12.1.3_PUBLIC/Ghidra/Features/GnuDemangler/ghidra_scripts
+    /opt/engineering/tools/ghidra_12.1.3_PUBLIC/Ghidra/Features/SwiftDemangler/ghidra_scripts
+    /opt/engineering/tools/ghidra_12.1.3_PUBLIC/Ghidra/Features/PyGhidra/ghidra_scripts
+    /opt/engineering/tools/ghidra_12.1.3_PUBLIC/Ghidra/Processors/8051/ghidra_scripts
+    /opt/engineering/tools/ghidra_12.1.3_PUBLIC/Ghidra/Processors/Atmel/ghidra_scripts
+    /opt/engineering/tools/ghidra_12.1.3_PUBLIC/Ghidra/Features/PDB/ghidra_scripts
+    /opt/engineering/tools/ghidra_12.1.3_PUBLIC/Ghidra/Features/BytePatterns/ghidra_scripts
+    /opt/engineering/tools/ghidra_12.1.3_PUBLIC/Ghidra/Features/MicrosoftCodeAnalyzer/ghidra_scripts
+    /opt/engineering/tools/ghidra_12.1.3_PUBLIC/Ghidra/Features/WildcardAssembler/ghidra_scripts
+    /opt/engineering/tools/ghidra_12.1.3_PUBLIC/Ghidra/Features/Base/ghidra_scripts
+    /opt/engineering/tools/ghidra_12.1.3_PUBLIC/Ghidra/Features/DecompilerDependent/ghidra_scripts
+    /workspace/OpenMitraStar/HGW500/out/ghidra-quantenna-20261103/scripts (HeadlessAnalyzer)  
+INFO  HEADLESS: execution starts (HeadlessAnalyzer)  
+INFO  Opening existing project: /workspace/build/evidence/ghidra-quantenna-20261103/preservation-auc-project/preservation-auc (HeadlessAnalyzer)  
+INFO  Opening project: /workspace/build/evidence/ghidra-quantenna-20261103/preservation-auc-project/preservation-auc (HeadlessProject)  
+INFO  REPORT: Processing project file: /auc_driver.nomu.0.bin (HeadlessAnalyzer)  
+INFO  REPORT: Execute script: ExportQuantenna.java '/workspace/build/evidence/ghidra-quantenna-20261103/preservation-auc-export-final' '15'  (HeadlessAnalyzer)  
+INFO  SCRIPT: /workspace/OpenMitraStar/HGW500/out/ghidra-quantenna-20261103/scripts/ExportQuantenna.java (HeadlessAnalyzer)  
+WARN  Decompiling ram:e5005c50, pcode error at ram:65005cb8: Could not follow disassembly flow into non-existing memory at ram:65005cb8 (DecompileCallback)  
+WARN  Decompiling ram:e5005c50, pcode error at ram:65005c78: Could not follow disassembly flow into non-existing memory at ram:65005c78 (DecompileCallback)  
+WARN  Decompiling ram:e5005c50, pcode error at ram:65005cf4: Could not follow disassembly flow into non-existing memory at ram:65005cf4 (DecompileCallback)  
+WARN  Decompiling ram:e5005d00, pcode error at ram:65005d40: Could not follow disassembly flow into non-existing memory at ram:65005d40 (DecompileCallback)  
+INFO  ExportQuantenna.java> QUANTENNA_EXPORTED functions=55 C=55 instructions=1421 byte_mismatches=0 (GhidraScript)  
+INFO  REPORT: Execute script: SnapshotQuantenna.java '/workspace/build/evidence/ghidra-quantenna-20261103/preservation-auc-export-final/ghidra-snapshot.json'  (HeadlessAnalyzer)  
+INFO  SCRIPT: /workspace/OpenMitraStar/HGW500/out/ghidra-quantenna-20261103/scripts/SnapshotQuantenna.java (HeadlessAnalyzer)  
+INFO  SnapshotQuantenna.java> Canonical read-only snapshot exported (GhidraScript)  
+INFO  REPORT: Save succeeded for processed file: /auc_driver.nomu.0.bin (HeadlessAnalyzer)  

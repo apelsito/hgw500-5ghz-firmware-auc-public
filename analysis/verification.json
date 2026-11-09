@@ -1,0 +1,97 @@
+{
+  "input_bytes": 33342,
+  "sha256": "c10018f4fe384d753a800bbbcd5ef3c85c568d0852c221009063282d30fd85f6",
+  "input_unchanged": true,
+  "segment_count": 9,
+  "all_segment_hashes_verified": true,
+  "linear_assembly_exports": [
+    {
+      "segment_index": 4,
+      "command": [
+        "/workspace/build/evidence/hgw500-quantenna-firmwares-20261103/tools/arc-objdump",
+        "-D",
+        "-z",
+        "-b",
+        "binary",
+        "-m",
+        "arc:ARC700",
+        "-EL",
+        "--adjust-vma=0xe5000000",
+        "/workspace/build/evidence/hgw500-quantenna-firmwares-20261103/run1/auc/segments/segment-04.bin"
+      ],
+      "returncode": 0,
+      "linear_decode_rows": 8796,
+      "assembly": "segment-04.asm",
+      "file_bytes": 24832
+    },
+    {
+      "segment_index": 6,
+      "command": [
+        "/workspace/build/evidence/hgw500-quantenna-firmwares-20261103/tools/arc-objdump",
+        "-D",
+        "-z",
+        "-b",
+        "binary",
+        "-m",
+        "arc:ARC700",
+        "-EL",
+        "--adjust-vma=0xe5000000",
+        "/workspace/build/evidence/hgw500-quantenna-firmwares-20261103/run1/auc/segments/segment-06.bin"
+      ],
+      "returncode": 0,
+      "linear_decode_rows": 135,
+      "assembly": "segment-06.asm",
+      "file_bytes": 480
+    },
+    {
+      "segment_index": 7,
+      "command": [
+        "/workspace/build/evidence/hgw500-quantenna-firmwares-20261103/tools/arc-objdump",
+        "-D",
+        "-z",
+        "-b",
+        "binary",
+        "-m",
+        "arc:ARC700",
+        "-EL",
+        "--adjust-vma=0xe50073b0",
+        "/workspace/build/evidence/hgw500-quantenna-firmwares-20261103/run1/auc/segments/segment-07.bin"
+      ],
+      "returncode": 0,
+      "linear_decode_rows": 474,
+      "assembly": "segment-07.asm",
+      "file_bytes": 1340
+    },
+    {
+      "segment_index": 8,
+      "command": [
+        "/workspace/build/evidence/hgw500-quantenna-firmwares-20261103/tools/arc-objdump",
+        "-D",
+        "-z",
+        "-b",
+        "binary",
+        "-m",
+        "arc:ARC700",
+        "-EL",
+        "--adjust-vma=0xe50073b0",
+        "/workspace/build/evidence/hgw500-quantenna-firmwares-20261103/run1/auc/segments/segment-08.bin"
+      ],
+      "returncode": 0,
+      "linear_decode_rows": 1003,
+      "assembly": "segment-08.asm",
+      "file_bytes": 2868
+    }
+  ],
+  "decompiled_c_recovered": false,
+  "hardware_accessed": false,
+  "limits": [
+    "Carrier ELF e_machine is ARCompact. Processor extensions and actual execution mode need independent validation.",
+    "GNU objdump performs linear decoding of every executable-marked file-backed segment. Data embedded in such segments can decode as instructions.",
+    "Duplicated virtual-address segments remain separate. Loader order and physical-address overrides are preserved in elf-layout.json.",
+    "No section table, symbols or debug information are present. Function boundaries are not recovered.",
+    "Ghidra 12.1.3 stock has no ARC language. REA failure records are retained.",
+    "No functionally equivalent C reconstruction or firmware behavior is claimed."
+  ],
+  "disassembler_architecture": "arc:ARC700",
+  "disassembler_byte_order": "little (-EL)"
+}

@@ -1,0 +1,13 @@
+block	start	end	bytes	file_bytes_offset	file_basename
+AUX_REGS	auxregs:0000	auxregs:0fff.3	16384	-1	
+auc_segment_00	auc_segment_00:ffff0000	auc_segment_00:ffff000f	16	340	auc_driver.nomu.0.bin
+auc_segment_01	ram:00472000	ram:00472ac9	2762	356	auc_driver.nomu.0.bin
+auc_segment_01_declared_BSS	ram:00472aca	ram:00630a5f	1826710	-1	
+auc_segment_02_declared_BSS	ram:80040000	ram:80079bff	236544	-1	
+auc_segment_03	ram:e5101000	ram:e51012bf	704	3118	auc_driver.nomu.0.bin
+auc_segment_03_declared_BSS	ram:e51012c0	ram:e510378b	9420	-1	
+auc_segment_04	ram:e5000000	ram:e50060ff	24832	3822	auc_driver.nomu.0.bin
+auc_segment_05_declared_BSS	ram:e5103be8	ram:e5103fff	1048	-1	
+auc_segment_06	auc_segment_06:e5000000	auc_segment_06:e50001df	480	28654	auc_driver.nomu.0.bin
+auc_segment_07	ram:e50073b0	ram:e50078eb	1340	29134	auc_driver.nomu.0.bin
+auc_segment_08	auc_segment_08:e50073b0	auc_segment_08:e5007ee3	2868	30474	auc_driver.nomu.0.bin

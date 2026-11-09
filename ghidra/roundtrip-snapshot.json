@@ -1,0 +1,79 @@
+{
+  "artifacts": {
+    "bookmarks.tsv": {
+      "bytes": 4149,
+      "rows": 40,
+      "sha256": "0f2af0d40875c5f781523ce6ee6543aed39ae829ae7399a1d023ee1c815eb9dd"
+    },
+    "comments.tsv": {
+      "bytes": 36,
+      "rows": 0,
+      "sha256": "9c72a09257596919f0fa6bb76f5064e606b992089cb4f229a336653c9830fc62"
+    },
+    "datatype-details.tsv": {
+      "bytes": 67,
+      "rows": 2,
+      "sha256": "e12f3705bd78dcc2cc60ea1f2cedd7f1a035cc425fd00371c250918b639106d3"
+    },
+    "datatypes.tsv": {
+      "bytes": 608,
+      "rows": 6,
+      "sha256": "ea4ec2da1cc0c69de049a0beafb700d0566334596ce13e534b5ffc24b47cc65d"
+    },
+    "defined-data.tsv": {
+      "bytes": 9881,
+      "rows": 372,
+      "sha256": "c184bb90cf8d2df95107a087ed96f448e3ef50f743588e3881e5270f37a08f9e"
+    },
+    "functions.tsv": {
+      "bytes": 7239,
+      "rows": 55,
+      "sha256": "1b41e67a6a992e079bc35b5e2dc2cb9e011040a11de93a646eaf7732be2c5ed4"
+    },
+    "instructions.tsv": {
+      "bytes": 90747,
+      "rows": 1421,
+      "sha256": "b00cfb5623a640ed7471c932a9f3b4ba52f44dc0a5550cb02143af0d1ddd8f31"
+    },
+    "memory-blocks.tsv": {
+      "bytes": 2441,
+      "rows": 12,
+      "sha256": "d903ce8b3b1f968c064de8021dcdb8b1223484acaecc7f20691faac611c84e03"
+    },
+    "memory-sources.tsv": {
+      "bytes": 933,
+      "rows": 12,
+      "sha256": "6f607cbcac12125a6cfb31c5f9011a50f7607641f1fa72633d40f8401c2c1a21"
+    },
+    "original-file-bytes.tsv": {
+      "bytes": 224,
+      "rows": 2,
+      "sha256": "a5b4ac8baf5d6f6d549c3d4fc67774d714fa4d632cb8582395ab37a72bd68996"
+    },
+    "references.tsv": {
+      "bytes": 46433,
+      "rows": 800,
+      "sha256": "d4bafd6ff0521bbe1ac26d02d82a202fedcac5372d3b3ee4ce65093f789c56b3"
+    },
+    "symbols.tsv": {
+      "bytes": 49921,
+      "rows": 803,
+      "sha256": "91c09185a8b59b3516d100d55b74191fe2558c373291c06614d0a2e1de968c3a"
+    },
+    "variables.tsv": {
+      "bytes": 477,
+      "rows": 7,
+      "sha256": "fe76b4d200f0115590226815e3992a9c93321aad6fe30e294162421dc856153a"
+    }
+  },
+  "comment_content_export": "sha256 only",
+  "compiler_spec_id": "default",
+  "default_pointer_size": 4,
+  "executable_format": "Raw Binary",
+  "executable_sha256": "c10018f4fe384d753a800bbbcd5ef3c85c568d0852c221009063282d30fd85f6",
+  "ghidra_version": "12.1.3",
+  "image_base": "ram:00000000",
+  "language_id": "ARCompact:LE:32:default",
+  "omitted_container_metadata": "storage project path, program name, executable path, timestamps, database IDs",
+  "schema": "openmitrastar.ghidra-program-snapshot/v1"
+}
